@@ -6,26 +6,19 @@
     border-radius: 5px;
 
     background-color: #333;
-    color: #f2f2f2;
 }
 
 .topbar__left {
     display: flex;
-
-    background-color: #333;
 }
 
 .topbar__right {
     display: flex;
-
-    background-color: #333;
 }
 
 .topbar__title {
     border-radius: 5px;
     margin: 5px;
-
-    background-color: #333;
 }
 
 .topbar__title:hover {
@@ -41,7 +34,6 @@
     text-align: center;
 
     background-color: #262626;
-    color: #f2f2f2;
 }
 
 .topbar__dropbtn p {
@@ -68,7 +60,7 @@
     right: 5px;
     margin-top: 50px;
     border-radius: 5px;
-    display: none;
+    display: flex;
     flex-direction: column;
     padding: 10px 10px 0 10px;
 
@@ -78,7 +70,9 @@
 .topbar__dropdown__button {
     display: flex;
     margin-bottom: 10px;
+}
 
+.topbar__dropdown__button p svg {
     background-color: #333;
 }
 
@@ -90,7 +84,9 @@
 .topbar__dropdown__nightmode {
     display: flex;
     margin-bottom: 10px;
+}
 
+.topbar__dropdown__nightmode p svg {
     background-color: #333;
 }
 

@@ -4,13 +4,15 @@
   font-size: medium;
   font-weight: 600;
   overflow-x: hidden;
+}
 
+body {
   background-color: #1a1a1a;
+  color: #f2f2f2;
 }
 
 a {
   text-decoration: none;
-
   color: #f2f2f2;
 }
 

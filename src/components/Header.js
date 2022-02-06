@@ -6,7 +6,8 @@ import HeaderDropdown from './HeaderDropdown'
 
 const Header = ({onAddGroup, onAddTask, onCloseCreateDropdown, showCreateContent, 
     onCloseMessagesDropdown, showMessagesContent, 
-    onCloseMainDropdown, showMainContent}) => {
+    onCloseMainDropdown, showMainContent,
+    Logout}) => {
 
     return (
         <div className="topbar">
@@ -27,7 +28,7 @@ const Header = ({onAddGroup, onAddTask, onCloseCreateDropdown, showCreateContent
               <div className="topbar__dropbtn" id="dropbtnUnfoldButton" onClick={onCloseMainDropdown}>
                   <p><FontAwesomeIcon icon={faCaretDown} className="fontawesome__button"/></p>
               </div>
-              {showMainContent && <HeaderDropdown dropdownType="mainContent"/>}
+              {showMainContent && <HeaderDropdown dropdownType="mainContent" Logout={Logout}/>}
           </div>
         </div>
     )}
